@@ -1,0 +1,8 @@
+server:
+  port: 1775
+
+kafka:
+  consumer:
+    bootstrap: localhost:9092
+    group: WorkUnitApp
+    topic: workunits
